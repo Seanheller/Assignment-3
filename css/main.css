@@ -1,0 +1,294 @@
+body {
+      color: #000305;
+      font-size: 87.5%;
+      font-family: 'Raleway', sans-serif;
+      font-family: 'Merriweather', serif;
+      line-height: 1.5;
+      text-align: left;
+}
+
+a {
+   text-decoration: none;
+   color: #CF5C3F
+}
+
+a: link, a:visited {
+
+}
+
+a:active, a:hover {
+   background-color: #CF5C3F;
+   color: #FFF;
+}
+
+.body {
+   margin: 0 auto;
+   width: 70%;
+   clear: both;
+}
+
+.mainheader img {
+   width: 30%;
+   height: auto;
+   margin: 2% 0;
+}
+
+.mainheader nav {
+   background-color: #222222 ;
+   height: 40px;
+   border-radius: 5px;
+   border-radius: 5px;
+}
+
+h1 {
+   font-family: 'Raleway';
+   font-size: 400%;
+}
+
+.author {
+   font-family: 'Raleway';
+   font-size: 120%;
+}
+
+nav
+{
+background-color: #FFFFFF;
+border-top: 1px solid #000000;
+border-bottom: 1px solid #000000;
+}
+
+.mainheader nav ul{
+   list-style: none;
+   margin: 0 auto;
+   text-align: justify;
+}
+
+.mainheader nav ul li {
+   float: left;
+   display: inline;
+}
+
+.mainheader nav a:link, .mainheader nav a:visited {
+   color: #333333;
+   display: inline-block;
+   padding: 10px 25px;
+   height: 20px;
+     -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav, .active a:link, .mainheader nav .active a:visited {
+   background-color: #FFFFFF;
+}
+
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav, .active a:link, .mainheader nav .active a:visited:hover {
+   background-color: #CF5C3F;
+   transition: 2s ease;
+   color: #FFFFFF;
+}
+
+.mainheader nav ul li a {
+   border-radius:5px;
+}
+
+.maincontent {
+   line-height: 25px;
+   border-radius: 5px;
+   overflow: hidden;
+}
+
+.content {
+   width: 70%;
+   float: left;
+   border-radius: 5px;
+}
+
+header {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin: 10px;
+}
+
+#headlines {
+   font-size: 200%;
+   margin:0;
+}
+
+.intro {
+
+   text-indent: 20px;
+   margin-bottom:40px;
+   margin-top: 40px;
+   list-style: lower-roman;
+   opacity: .5;
+   text-align: left;
+   display: block;
+   padding: 20px;
+   border-left: 5px solid #222222;
+   transition: 2s;
+}
+
+.intro:hover{
+   font-weight: bolder;
+   background-color: #222222;
+   color: #FFFFFF;
+   -webkit-transition: all 2s ease;
+   -moz-transition: all 2s ease;
+   -o-transition: all 2s ease;
+   transition: all 2s ease;
+}
+
+.Raleway {
+   font-family: 'Raleway';
+   font-size: 120%;
+}
+
+.topcontent {
+   background-color: #FFF;
+   border-radius: 5px;
+   padding: 3% 5%;
+}
+
+.bottomcontent {
+   background-color: #FFF;
+   border-radius: 5px;
+   padding: 3% 5%;
+}
+
+.post-info{
+   font-style: italic;
+   color: #222222;
+   opacity: .5;
+   font-size: 85%;
+}
+
+.top-sidebar {
+   width: 21%;
+   float: left;
+   background-color: #FFF;
+   border-radius: 5px;
+   margin: 1% 0 2% 3%;
+   padding: 2% 3%;
+}
+
+.middle-sidebar {
+   width: 21%;
+   float: left;
+   background-color: #FFF;
+   border-radius: 5px;
+   margin-left: 3%;
+   margin-bottom: 2%;
+   margin-top: 2%;
+   margin: 1% 0 2% 3%;
+   padding: 2% 3%;
+}
+
+.bottom-sidebar {
+   width: 21%;
+   float: left;
+   background-color: #FFF;
+   border-radius: 5px;
+   margin-left: 3%;
+   margin-bottom: 2%;
+   margin-top: 2%;
+   padding: 2% 3%;
+}
+
+.mainfooter {
+   width: 100%;
+   height: 40px;
+   float: left;
+   border-radius:  5px;
+   margin-top: 2%;
+   margin-bottom: 2% 0;
+}
+
+.mainfooter p {
+   width: 92%;
+   margin:10px auto;
+   color: #FFF;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 680px){
+
+   .body {
+      width: 90%;
+      font-size: 85%
+   }
+
+   h1 {
+      font-size: 150%;
+      text-align: justify;
+      text-align: center;
+   }
+
+   .author {
+      font-size: 80%;
+      text-align: center;
+   }
+
+   .mainheader img {
+      width: 100%;
+   }
+
+   .mainheader nav {
+   height: 160px;
+   }
+
+   .mainheader nav ul {
+      padding-left: 0;
+   }
+
+   .mainheader nav ul li {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+   }
+
+   .mainheader nav a:link, .mainheader nav a:visited {
+      padding: 10px 25px;
+      height: 20px;
+      display: block;
+   }
+
+   .maincontent {
+   line-height: 20px
+   }
+
+   .intro {
+      font-size: 80%;
+   }
+
+   .content {
+      width:100%;
+      float: left;
+      margin-top: 2%
+   }
+
+   .post-info{
+      display:none;
+   }
+
+   .topcontent {
+      margin-bottom: 4%
+   }
+
+   .bottomcontent {
+      margin-top: 3%
+   }
+
+   .post-info{
+      font-style: italic;
+      color: #222;
+      font-size: 85%;
+   }
+
+   .top-sidebar, .middle-sidebar, .bottom-sidebar{
+      width: 94%;
+      margin: 2% 0 2% 0;
+      padding: 2% 3%;
+   }
