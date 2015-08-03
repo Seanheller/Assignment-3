@@ -2,23 +2,22 @@
 <html>
    <head>
       <meta charset="utf-8">
-      <title>Drop Down Menu (v0.3.0)</title>
+      <title>principle-one</title>
       <link rel="stylesheet" href="css/main.css">
    </head>
 
    <body>
       <header>
-         <h1>Ten Principles</h1>
-         <h2>for Good Design</h2>
-         <p>By Dieter Rams</p>
+         <h1>Good Design...</h1>
+         <p>Is innovative. The possibilities for progression are not, by any means, exhausted. Technological development is always offering new opportunities for original designs. But imaginative design always develops in tandem with improving technology, and can never be an end in itself.</p>
          <img src="img/glasses.png" alt=""/>
          <nav>
             <ul>
-               <li><a href="#">Home</a>
+               <li><a href="index.html">Home</a>
                   <ul class="submenu">
-                     <li><a href="About">1.1</a></li>
-                     <li><a href="Portfolio">1.2</a></li>
-                     <li><a href="Contact">1.3</a></li>
+                     <li><a href="About">About</a></li>
+                     <li><a href="Portfolio">Portfolio</a></li>
+                     <li><a href="Contact">Contact</a></li>
                   </ul>
                </li>
                <li><a href="#">Good Design Is:</a>
@@ -29,7 +28,7 @@
                      <li><a href="principle-four">Understandable</a></li>
                      <li><a href="principle-five">Unobtrusive</a></li>
                      <li><a href="principle-six">Honest</a></li>
-                     <li><a href="principle-seven">Long Lasting</a></li>
+                     <li><a href="principle-seven">Long-Lasting</a></li>
                      <li><a href="principle-eight">Detailed</a></li>
                      <li><a href="principle-nine">Green</a></li>
                      <li><a href="principle-ten">Minimalist</a></li>

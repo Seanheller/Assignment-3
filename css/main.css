@@ -58,12 +58,20 @@ span {
   color: #7d4793;
 }
 
-h1, h2 {
+h1 {
    text-align: center;
    font-family: 'Merriweather', serif;
    font-size: 218%;
    margin: 20px 0 0 0;
    padding:40px 10px 0 0;
+}
+
+h2 {
+   text-align: center;
+   font-family: 'Merriweather', serif;
+   font-size: 218%;
+   margin: 10px 0 0 0;
+   padding: 0 10px 0 0;
 }
 
 p {
@@ -112,12 +120,16 @@ nav ul > li {
 nav ul > li ul {
   visibility: hidden;
   position: absolute;
-  top: 38px;
+  top: 40px;
   left: 0;
   transition: 3s;
 }
 nav ul > li:hover ul {
   visibility: visible;
+}
+
+.submenu {
+   font-size: 70%;
 }
 
 nav .dropdown:after {
@@ -143,7 +155,7 @@ nav li ul {
 }
 nav li:hover ul {
     opacity: 1;
-    top: 50px;
+    top: 60px;
     visibility: visible;
 }
 nav li ul li {
